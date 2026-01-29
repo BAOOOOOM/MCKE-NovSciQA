@@ -1,4 +1,4 @@
-# Learn to Understanding: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering
+# Learn to Understand: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering
 
 This repository provides the **code and dataset** for the paper:
 
