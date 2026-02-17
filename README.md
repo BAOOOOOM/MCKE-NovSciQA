@@ -27,3 +27,20 @@ The paper proposes **MCKE (Multi-Agent Cooperation-based Knowledge Exemplificati
 - Due to data licensing and size constraints, **some datasets need to be downloaded separately** and placed into the corresponding directories before running the code.
 - After preparing the required data, the scripts in `MCKE/ScienceQA/` can be executed **sequentially (01 → 06)** to reproduce the main results.
 - **Environment setup instructions and detailed configuration will be updated in future releases**.
+
+---
+
+## 📌 Citation
+
+If you find this repository or the **NovSciQA dataset** useful for your research, please consider citing our paper:
+
+```bibtex
+@ARTICLE{11365952,
+  author={Bao, Meikai and Zhang, Kai and Liu, Xukai and Liu, Qi and Zhao, Hongke and Chen, Enhong},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={Learn to Understand: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TKDE.2026.3658068}}
