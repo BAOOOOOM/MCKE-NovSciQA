@@ -2,9 +2,26 @@
 
 This repository provides the **code and dataset** for the paper:
 
-> **Learn to Understanding: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering**  
+> **Learn to Understand: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering**
 
-The paper proposes **MCKE (Multi-Agent Cooperation-based Knowledge Exemplification)**, a schema-inspired framework that constructs and adapts *exemplified knowledge* to guide large language models in science question answering.
+---
+
+## 🔍 TL;DR (Key Takeaways)
+
+- **Finding**: Chain-of-Thought (CoT) style reasoning often fails under *novel scientific knowledge*, even with long rationales, indicating reliance on **memorization rather than genuine understanding**.
+- **Solution**: We propose **MCKE**, a schema-inspired, multi-agent framework that constructs and adapts **exemplified knowledge** to guide LLMs in knowledge-based reasoning.
+- **Evaluation**: We introduce **NovSciQA**, a science QA dataset built on **non-existent scientific knowledge**, explicitly designed to prevent pretraining knowledge leakage.
+
+---
+
+## 🧠 Why Does This Matter?
+
+Recent advances in LLM reasoning (e.g., CoT, self-consistency, multi-agent debate) show strong performance on existing science QA benchmarks.
+However, most benchmarks contain knowledge already seen during pretraining, making it unclear whether models truly **reason** or simply **recall memorized patterns**.
+
+This work explicitly studies **LLM reasoning under novel, unseen scientific knowledge**, and provides:
+- A principled evaluation benchmark (NovSciQA), and
+- A reference reasoning framework (MCKE) that goes beyond surface-level CoT prompting.
 
 ---
 
@@ -22,6 +39,15 @@ The paper proposes **MCKE (Multi-Agent Cooperation-based Knowledge Exemplificati
 
 ---
 
+## 🚀 What Can You Use This Repository For?
+
+- Evaluating LLM reasoning methods under **novel knowledge** without pretraining leakage
+- Benchmarking new reasoning approaches beyond Chain-of-Thought
+- Using **MCKE as a reference baseline** for schema-based or knowledge-driven reasoning methods
+- Analyzing failure modes of CoT-style prompting under distribution shifts
+
+---
+
 ## ⚠️ Notes on Usage
 
 - Due to data licensing and size constraints, **some datasets need to be downloaded separately** and placed into the corresponding directories before running the code.
@@ -33,6 +59,8 @@ The paper proposes **MCKE (Multi-Agent Cooperation-based Knowledge Exemplificati
 ## 📌 Citation
 
 If you find this repository or the **NovSciQA dataset** useful for your research, please consider citing our paper:
+
+> Bao et al., *Learn to Understand: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering*, TKDE 2026.
 
 ```bibtex
 @ARTICLE{11365952,
