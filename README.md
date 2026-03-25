@@ -68,7 +68,9 @@ If you find this repository or the **NovSciQA dataset** useful for your research
   journal={IEEE Transactions on Knowledge and Data Engineering}, 
   title={Learn to Understand: Knowledge Exemplification via Multi-Agent Cooperation for Science Question Answering}, 
   year={2026},
-  volume={},
-  number={},
-  pages={1-13},
+  volume={38},
+  number={4},
+  pages={2313-2325},
+  keywords={Cognition;Question answering (information retrieval);Silver;Biological system modeling;Training;Large language models;Arithmetic;Accuracy;Knowledge representation;Psychology;Question answering;multi-agent;knowledge engineering;large language models},
   doi={10.1109/TKDE.2026.3658068}}
+
